@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo img {
+    width: 300px;
+    margin: 10px;
+}
+
+.new_todo {
+    margin-bottom: 20px;
+}
+
+.new_todo h3 {
+    color: red;
+    margin: 10px;
+}
+
+.new_todo input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.new_todo button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.todo_container {
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+}
+
+.todo_container ul li {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.todo_container ul li:hover {
+    background-color: white;
+}
+
+.todo_container ul li i {
+    color: lightgray;
+}
+
+.todo_container ul li i:hover {
+    color: gray;
+}
